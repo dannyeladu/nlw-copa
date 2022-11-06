@@ -60,3 +60,35 @@ document.querySelector("#cards").innerHTML =
       createGame("switzerland", "16:00", "serbia") +
       createGame("brazil", "16:00", "cameroon")
   )
+
+  btnThemeYellow = document.querySelector(".btn-theme-yellow")
+  btnThemeBlue = document.querySelector(".btn-theme-blue")
+  btnThemeGreen = document.querySelector(".btn-theme-green")
+  btnThemeAzul = document.querySelector(".btn-theme-azul")
+  btnThemeBola = document.querySelector(".btn-theme-bola")
+  btnThemeCopa = document.querySelector(".btn-theme-copa")
+
+  btnThemeYellow.addEventListener("click", () => {
+    document.body.className = "yellow"
+  })
+
+  btnThemeBlue.addEventListener("click", () => {
+    document.body.className = "blue"
+  })
+
+  btnThemeGreen.addEventListener("click", () => {
+    document.body.className = "green"
+  })
+
+  btnThemeAzul.addEventListener("click", () => {
+    document.body.className = "azul"
+  })
+
+  btnThemeBola.addEventListener("click", () => {
+    document.body.className = "bola"
+  })
+
+  btnThemeCopa.addEventListener("click", () => {
+    document.body.className = "copa"
+  })
+

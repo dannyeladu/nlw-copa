@@ -28,7 +28,7 @@ body.green {
 body.copa {
   --card-title-border-color: #7c0450;
   --card-color-primary: #7c0450;
-  --card-bg-color: rgba (255, 0, 0, 0.9);
+  --card-bg-color:rgba (255, 0, 0, 0.9);
   --bg: url(./assets/bg-copa.svg);
 }
 
@@ -72,6 +72,73 @@ header {
   margin-bottom: 63px;
   text-align: center;
 }
+
+.theme {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+
+.btn-theme {
+  font-weight: 700;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  box-shadow: #121214;
+  color: #e4f2f4;
+  transition: all 0.3s ease;
+}
+
+.btn-theme-yellow {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-yellow:hover {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-blue {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-blue:hover {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-green {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-green:hover {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-azul {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-azul:hover {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-bola {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-bola:hover {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-copa {
+  background-image: linear-gradient(#746615, #181818);
+}
+
+.btn-theme-copa:hover {
+  background-image: linear-gradient(#746615, #181818);
+}
+
 
 #cards {
   display: flex;
