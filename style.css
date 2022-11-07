@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h2 {
+  color: #047c3f;
+}
+
 :root {
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
@@ -28,7 +32,7 @@ body.green {
 body.copa {
   --card-title-border-color: #7c0450;
   --card-color-primary: #7c0450;
-  --card-bg-color:rgba (255, 0, 0, 0.9);
+  --card-bg-color: rgba (255, 0, 0, 0.9);
   --bg: url(./assets/bg-copa.svg);
 }
 
@@ -75,9 +79,10 @@ header {
 
 .theme {
   display: flex;
-  justify-content: center;
-  gap: 3px;
-  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 40px;
 }
 
 .btn-theme {
@@ -139,7 +144,6 @@ header {
   background-image: linear-gradient(#746615, #181818);
 }
 
-
 #cards {
   display: flex;
   flex-direction: column;
@@ -170,14 +174,14 @@ header {
 
 .card h2 span {
   color: #e1e1e6;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
 .card ul {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 10px;
   width: 270px;
 }
 
@@ -228,8 +232,9 @@ header {
 
 @media (min-width: 700px) {
   #cards {
-    max-width: 1050px;
+    max-width: 1020px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
