@@ -148,11 +148,13 @@ header {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  align-items: center;
 }
 
 .card {
   padding: 32px 23px;
   text-align: center;
+  width: fit-content;
   background: var(--card-bg-color);
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
@@ -173,7 +175,7 @@ header {
 }
 
 .card h2 span {
-  color: #e1e1e6;
+  color: #f7dd43;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -181,7 +183,7 @@ header {
 .card ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   width: 270px;
 }
 
@@ -198,9 +200,9 @@ header {
 
 .card ul li strong {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 125%;
-  color: #e1e1e6;
+  color: #f7dd43;
 }
 
 .card h2:hover,
@@ -235,6 +237,7 @@ header {
     max-width: 1020px;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
   }
 }
